@@ -1,0 +1,19 @@
+1.Write a python program to reverse of a string?
+ANS:
+
+                    def reversestring(n):
+                        result = ""
+                        for i in n:
+                           result = i + result
+                        return result
+                    n="1234abcd"
+                    print(reversestring(n))
+2.Write a python function to find the max of three numbers?
+ANS:
+                                 def maximum(a, b, c): 
+                                         list = [a, b, c] 
+                                         return max(list) 
+                                 a = int(input("Enter  the a value :"))
+                                 b = int(input("Enter the b value :"))
+                                 c = int(input("Enter the c value :"))
+                                 print("Maximum Number is :",maximum(a, b, c)) 
